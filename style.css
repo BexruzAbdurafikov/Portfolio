@@ -1,0 +1,124 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    align-items: center;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
+}
+
+section {
+    padding: 60px 20px;
+    margin: 20px 0;
+}
+
+section h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform 0.5s ease-in-out;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.project {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+}
+
+.project:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#skills ul {
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+#skills {
+    text-align: center;
+}
+
+#contact a{
+    text-decoration: none;
+}
+
+.project {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 80%;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+.project p{
+    color: #f2f2f2;
+}
+
+.project h3 {
+    color: #bb86fc;
+}
+.project a {
+    color: #03dac6;
+    text-decoration: none;
+}
+.project a:hover {
+    text-decoration: underline;
+}
+
+#portfolio h2{
+    margin-bottom: 70px;
+}
